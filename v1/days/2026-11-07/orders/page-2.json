@@ -1,0 +1,789 @@
+{
+ "data": [
+  {
+   "order_id": 261107026,
+   "placed_at": "2026-11-07T08:58:00+01:00",
+   "status": "DLV",
+   "customer": {
+    "customer_id": 1379,
+    "city": "Zrenjanin"
+   },
+   "payment": {
+    "method": "card",
+    "paid": true
+   },
+   "items": [
+    {
+     "line": 1,
+     "product_id": 127,
+     "quantity": 1,
+     "unit_price": 5810.0
+    },
+    {
+     "line": 2,
+     "product_id": 133,
+     "quantity": 1,
+     "unit_price": 1470.0
+    }
+   ],
+   "discount_code": null,
+   "discount_amount": 0.0,
+   "shipping_fee": 390.0,
+   "total": 7670.0
+  },
+  {
+   "order_id": 261107027,
+   "placed_at": "2026-11-07T18:47:00+01:00",
+   "status": "SHP",
+   "customer": {
+    "customer_id": 1497,
+    "city": "Beograd"
+   },
+   "payment": {
+    "method": "card",
+    "paid": true
+   },
+   "items": [
+    {
+     "line": 1,
+     "product_id": 122,
+     "quantity": 1,
+     "unit_price": 6810.0
+    },
+    {
+     "line": 2,
+     "product_id": 134,
+     "quantity": 1,
+     "unit_price": 1480.0
+    }
+   ],
+   "discount_code": null,
+   "discount_amount": 0.0,
+   "shipping_fee": 390.0,
+   "total": 8680.0
+  },
+  {
+   "order_id": 261107028,
+   "placed_at": "2026-11-07T11:53:00+01:00",
+   "status": "DLV",
+   "customer": {
+    "customer_id": 1562,
+    "city": "Sombor"
+   },
+   "payment": {
+    "method": "cash_on_delivery",
+    "paid": true
+   },
+   "items": [
+    {
+     "line": 1,
+     "product_id": 135,
+     "quantity": 1,
+     "unit_price": 1790.0
+    },
+    {
+     "line": 2,
+     "product_id": 132,
+     "quantity": 3,
+     "unit_price": 1620.0
+    }
+   ],
+   "discount_code": null,
+   "discount_amount": 0.0,
+   "shipping_fee": 390.0,
+   "total": 7040.0
+  },
+  {
+   "order_id": 261107029,
+   "placed_at": "2026-11-07T16:17:00+01:00",
+   "status": "DLV",
+   "customer": {
+    "customer_id": 1477,
+    "city": "Beograd"
+   },
+   "payment": {
+    "method": "cash_on_delivery",
+    "paid": true
+   },
+   "items": [
+    {
+     "line": 1,
+     "product_id": 106,
+     "quantity": 3,
+     "unit_price": 6260.0
+    },
+    {
+     "line": 2,
+     "product_id": 105,
+     "quantity": 1,
+     "unit_price": 5340.0
+    }
+   ],
+   "discount_code": null,
+   "discount_amount": 0.0,
+   "shipping_fee": 0.0,
+   "total": 24120.0
+  },
+  {
+   "order_id": 261107030,
+   "placed_at": "2026-11-07T11:32:00+01:00",
+   "status": "DLV",
+   "customer": {
+    "customer_id": 1377,
+    "city": "Sombor"
+   },
+   "payment": {
+    "method": "card",
+    "paid": true
+   },
+   "items": [
+    {
+     "line": 1,
+     "product_id": 126,
+     "quantity": 1,
+     "unit_price": 3890.0
+    },
+    {
+     "line": 2,
+     "product_id": 114,
+     "quantity": 1,
+     "unit_price": 1920.0
+    }
+   ],
+   "discount_code": null,
+   "discount_amount": 0.0,
+   "shipping_fee": 390.0,
+   "total": 6200.0
+  },
+  {
+   "order_id": 261107031,
+   "placed_at": "2026-11-07T20:13:00+01:00",
+   "status": "DLV",
+   "customer": {
+    "customer_id": 1059,
+    "city": "Niš"
+   },
+   "payment": {
+    "method": "cash_on_delivery",
+    "paid": true
+   },
+   "items": [
+    {
+     "line": 1,
+     "product_id": 125,
+     "quantity": 1,
+     "unit_price": 3130.0
+    },
+    {
+     "line": 2,
+     "product_id": 119,
+     "quantity": 2,
+     "unit_price": 1520.0
+    },
+    {
+     "line": 3,
+     "product_id": 123,
+     "quantity": 1,
+     "unit_price": 5240.0
+    }
+   ],
+   "discount_code": null,
+   "discount_amount": 0.0,
+   "shipping_fee": 0.0,
+   "total": 11410.0
+  },
+  {
+   "order_id": 261107032,
+   "placed_at": "2026-11-07T16:02:00+01:00",
+   "status": "DLV",
+   "customer": {
+    "customer_id": 1414,
+    "city": "Kraljevo"
+   },
+   "payment": {
+    "method": "cash_on_delivery",
+    "paid": true
+   },
+   "items": [
+    {
+     "line": 1,
+     "product_id": 139,
+     "quantity": 1,
+     "unit_price": 3030.0
+    },
+    {
+     "line": 2,
+     "product_id": 105,
+     "quantity": 1,
+     "unit_price": 5340.0
+    }
+   ],
+   "discount_code": null,
+   "discount_amount": 0.0,
+   "shipping_fee": 390.0,
+   "total": 8760.0
+  },
+  {
+   "order_id": 261107033,
+   "placed_at": "2026-11-07T09:07:00+01:00",
+   "status": "DLV",
+   "customer": {
+    "customer_id": 1447,
+    "city": "Kragujevac"
+   },
+   "payment": {
+    "method": "card",
+    "paid": true
+   },
+   "items": [
+    {
+     "line": 1,
+     "product_id": 113,
+     "quantity": 2,
+     "unit_price": 1680.0
+    }
+   ],
+   "discount_code": null,
+   "discount_amount": 0.0,
+   "shipping_fee": 390.0,
+   "total": 3750.0
+  },
+  {
+   "order_id": 261107034,
+   "placed_at": "2026-11-07T18:04:00+01:00",
+   "status": "DLV",
+   "customer": {
+    "customer_id": 1190,
+    "city": "Novi Sad"
+   },
+   "payment": {
+    "method": "card",
+    "paid": true
+   },
+   "items": [
+    {
+     "line": 1,
+     "product_id": 136,
+     "quantity": 1,
+     "unit_price": 2890.0
+    }
+   ],
+   "discount_code": null,
+   "discount_amount": 0.0,
+   "shipping_fee": 390.0,
+   "total": 3280.0
+  },
+  {
+   "order_id": 261107035,
+   "placed_at": "2026-11-07T17:06:00+01:00",
+   "status": "CAN",
+   "customer": {
+    "customer_id": 1212,
+    "city": "Kragujevac"
+   },
+   "payment": {
+    "method": "cash_on_delivery",
+    "paid": false
+   },
+   "items": [
+    {
+     "line": 1,
+     "product_id": 129,
+     "quantity": 2,
+     "unit_price": 1300.0
+    },
+    {
+     "line": 2,
+     "product_id": 120,
+     "quantity": 1,
+     "unit_price": 1890.0
+    }
+   ],
+   "discount_code": null,
+   "discount_amount": 0.0,
+   "shipping_fee": 390.0,
+   "total": 4880.0
+  },
+  {
+   "order_id": 261107036,
+   "placed_at": "2026-11-07T23:26:00+01:00",
+   "status": "DLV",
+   "customer": {
+    "customer_id": 1236,
+    "city": "Kragujevac"
+   },
+   "payment": {
+    "method": "card",
+    "paid": true
+   },
+   "items": [
+    {
+     "line": 1,
+     "product_id": 116,
+     "quantity": 1,
+     "unit_price": 2150.0
+    }
+   ],
+   "discount_code": null,
+   "discount_amount": 0.0,
+   "shipping_fee": 390.0,
+   "total": 2540.0
+  },
+  {
+   "order_id": 261107037,
+   "placed_at": "2026-11-07T14:30:00+01:00",
+   "status": "DLV",
+   "customer": {
+    "customer_id": 1207,
+    "city": "Čačak"
+   },
+   "payment": {
+    "method": "paypal",
+    "paid": true
+   },
+   "items": [
+    {
+     "line": 1,
+     "product_id": 125,
+     "quantity": 1,
+     "unit_price": 3130.0
+    },
+    {
+     "line": 2,
+     "product_id": 116,
+     "quantity": 1,
+     "unit_price": 2150.0
+    },
+    {
+     "line": 3,
+     "product_id": 112,
+     "quantity": 1,
+     "unit_price": 7530.0
+    },
+    {
+     "line": 4,
+     "product_id": 115,
+     "quantity": 1,
+     "unit_price": 1980.0
+    }
+   ],
+   "discount_code": null,
+   "discount_amount": 0.0,
+   "shipping_fee": 0.0,
+   "total": 14790.0
+  },
+  {
+   "order_id": 261107038,
+   "placed_at": "2026-11-07T18:01:00+01:00",
+   "status": "DLV",
+   "customer": {
+    "customer_id": 1498,
+    "city": "Niš"
+   },
+   "payment": {
+    "method": "cash_on_delivery",
+    "paid": true
+   },
+   "items": [
+    {
+     "line": 1,
+     "product_id": 125,
+     "quantity": 1,
+     "unit_price": 3130.0
+    },
+    {
+     "line": 2,
+     "product_id": 133,
+     "quantity": 2,
+     "unit_price": 1470.0
+    },
+    {
+     "line": 3,
+     "product_id": 134,
+     "quantity": 3,
+     "unit_price": 1480.0
+    },
+    {
+     "line": 4,
+     "product_id": 110,
+     "quantity": 1,
+     "unit_price": 7880.0
+    }
+   ],
+   "discount_code": null,
+   "discount_amount": 0.0,
+   "shipping_fee": 0.0,
+   "total": 18390.0
+  },
+  {
+   "order_id": 261107039,
+   "placed_at": "2026-11-07T08:49:00+01:00",
+   "status": "DLV",
+   "customer": {
+    "customer_id": 1112,
+    "city": "Beograd"
+   },
+   "payment": {
+    "method": "cash_on_delivery",
+    "paid": true
+   },
+   "items": [
+    {
+     "line": 1,
+     "product_id": 123,
+     "quantity": 1,
+     "unit_price": 5240.0
+    },
+    {
+     "line": 2,
+     "product_id": 130,
+     "quantity": 2,
+     "unit_price": 1910.0
+    },
+    {
+     "line": 3,
+     "product_id": 126,
+     "quantity": 2,
+     "unit_price": 3890.0
+    }
+   ],
+   "discount_code": null,
+   "discount_amount": 0.0,
+   "shipping_fee": 0.0,
+   "total": 16840.0
+  },
+  {
+   "order_id": 261107040,
+   "placed_at": "2026-11-07T11:31:00+01:00",
+   "status": "SHP",
+   "customer": {
+    "customer_id": 1596,
+    "city": "Čačak"
+   },
+   "payment": {
+    "method": "card",
+    "paid": true
+   },
+   "items": [
+    {
+     "line": 1,
+     "product_id": 114,
+     "quantity": 1,
+     "unit_price": 1920.0
+    }
+   ],
+   "discount_code": null,
+   "discount_amount": 0.0,
+   "shipping_fee": 390.0,
+   "total": 2310.0
+  },
+  {
+   "order_id": 261107041,
+   "placed_at": "2026-11-07T09:10:00+01:00",
+   "status": "DLV",
+   "customer": {
+    "customer_id": 1533,
+    "city": "Subotica"
+   },
+   "payment": {
+    "method": "card",
+    "paid": true
+   },
+   "items": [
+    {
+     "line": 1,
+     "product_id": 131,
+     "quantity": 2,
+     "unit_price": 1700.0
+    }
+   ],
+   "discount_code": null,
+   "discount_amount": 0.0,
+   "shipping_fee": 390.0,
+   "total": 3790.0
+  },
+  {
+   "order_id": 261107042,
+   "placed_at": "2026-11-07T18:27:00+01:00",
+   "status": "RET",
+   "customer": {
+    "customer_id": 1392,
+    "city": "Čačak"
+   },
+   "payment": {
+    "method": "cash_on_delivery",
+    "paid": true
+   },
+   "items": [
+    {
+     "line": 1,
+     "product_id": 116,
+     "quantity": 1,
+     "unit_price": 2150.0
+    }
+   ],
+   "discount_code": null,
+   "discount_amount": 0.0,
+   "shipping_fee": 390.0,
+   "total": 2540.0
+  },
+  {
+   "order_id": 261107043,
+   "placed_at": "2026-11-07T19:29:00+01:00",
+   "status": "CAN",
+   "customer": {
+    "customer_id": 1384,
+    "city": "Novi Sad"
+   },
+   "payment": {
+    "method": "paypal",
+    "paid": false
+   },
+   "items": [
+    {
+     "line": 1,
+     "product_id": 131,
+     "quantity": 1,
+     "unit_price": 1700.0
+    }
+   ],
+   "discount_code": null,
+   "discount_amount": 0.0,
+   "shipping_fee": 390.0,
+   "total": 2090.0
+  },
+  {
+   "order_id": 261107044,
+   "placed_at": "2026-11-07T16:03:00+01:00",
+   "status": "DLV",
+   "customer": {
+    "customer_id": 1497,
+    "city": "Čačak"
+   },
+   "payment": {
+    "method": "card",
+    "paid": true
+   },
+   "items": [
+    {
+     "line": 1,
+     "product_id": 104,
+     "quantity": 2,
+     "unit_price": 5570.0
+    },
+    {
+     "line": 2,
+     "product_id": 115,
+     "quantity": 2,
+     "unit_price": 1980.0
+    },
+    {
+     "line": 3,
+     "product_id": 111,
+     "quantity": 1,
+     "unit_price": 7150.0
+    },
+    {
+     "line": 4,
+     "product_id": 118,
+     "quantity": 3,
+     "unit_price": 2240.0
+    }
+   ],
+   "discount_code": null,
+   "discount_amount": 0.0,
+   "shipping_fee": 0.0,
+   "total": 28970.0
+  },
+  {
+   "order_id": 261107045,
+   "placed_at": "2026-11-07T20:11:00+01:00",
+   "status": "DLV",
+   "customer": {
+    "customer_id": 1139,
+    "city": "Kragujevac"
+   },
+   "payment": {
+    "method": "cash_on_delivery",
+    "paid": true
+   },
+   "items": [
+    {
+     "line": 1,
+     "product_id": 111,
+     "quantity": 3,
+     "unit_price": 7150.0
+    },
+    {
+     "line": 2,
+     "product_id": 132,
+     "quantity": 1,
+     "unit_price": 1620.0
+    },
+    {
+     "line": 3,
+     "product_id": 105,
+     "quantity": 1,
+     "unit_price": 5340.0
+    },
+    {
+     "line": 4,
+     "product_id": 114,
+     "quantity": 2,
+     "unit_price": 1920.0
+    }
+   ],
+   "discount_code": "BLACK20",
+   "discount_amount": 6450.0,
+   "shipping_fee": 0.0,
+   "total": 25800.0
+  },
+  {
+   "order_id": 261107046,
+   "placed_at": "2026-11-07T14:53:00+01:00",
+   "status": "DLV",
+   "customer": {
+    "customer_id": 1019,
+    "city": "Sombor"
+   },
+   "payment": {
+    "method": "card",
+    "paid": true
+   },
+   "items": [
+    {
+     "line": 1,
+     "product_id": 126,
+     "quantity": 1,
+     "unit_price": 3890.0
+    },
+    {
+     "line": 2,
+     "product_id": 122,
+     "quantity": 1,
+     "unit_price": 6810.0
+    }
+   ],
+   "discount_code": null,
+   "discount_amount": 0.0,
+   "shipping_fee": 0.0,
+   "total": 10700.0
+  },
+  {
+   "order_id": 261107047,
+   "placed_at": "2026-11-07T09:55:00+01:00",
+   "status": "DLV",
+   "customer": {
+    "customer_id": 1470,
+    "city": "Niš"
+   },
+   "payment": {
+    "method": "card",
+    "paid": true
+   },
+   "items": [
+    {
+     "line": 1,
+     "product_id": 110,
+     "quantity": 3,
+     "unit_price": 7880.0
+    }
+   ],
+   "discount_code": null,
+   "discount_amount": 0.0,
+   "shipping_fee": 0.0,
+   "total": 23640.0
+  },
+  {
+   "order_id": 261107048,
+   "placed_at": "2026-11-07T09:22:00+01:00",
+   "status": "DLV",
+   "customer": {
+    "customer_id": 1433,
+    "city": "Kragujevac"
+   },
+   "payment": {
+    "method": "cash_on_delivery",
+    "paid": true
+   },
+   "items": [
+    {
+     "line": 1,
+     "product_id": 122,
+     "quantity": 1,
+     "unit_price": 6810.0
+    }
+   ],
+   "discount_code": null,
+   "discount_amount": 0.0,
+   "shipping_fee": 390.0,
+   "total": 7200.0
+  },
+  {
+   "order_id": 261107049,
+   "placed_at": "2026-11-07T22:05:00+01:00",
+   "status": "DLV",
+   "customer": {
+    "customer_id": 1132,
+    "city": "Zrenjanin"
+   },
+   "payment": {
+    "method": "card",
+    "paid": true
+   },
+   "items": [
+    {
+     "line": 1,
+     "product_id": 135,
+     "quantity": 1,
+     "unit_price": 1790.0
+    }
+   ],
+   "discount_code": null,
+   "discount_amount": 0.0,
+   "shipping_fee": 390.0,
+   "total": 2180.0
+  },
+  {
+   "order_id": 261107050,
+   "placed_at": "2026-11-07T14:11:00+01:00",
+   "status": "DLV",
+   "customer": {
+    "customer_id": 1085,
+    "city": "Sombor"
+   },
+   "payment": {
+    "method": "cash_on_delivery",
+    "paid": true
+   },
+   "items": [
+    {
+     "line": 1,
+     "product_id": 112,
+     "quantity": 2,
+     "unit_price": 7530.0
+    },
+    {
+     "line": 2,
+     "product_id": 114,
+     "quantity": 2,
+     "unit_price": 1920.0
+    },
+    {
+     "line": 3,
+     "product_id": 129,
+     "quantity": 1,
+     "unit_price": 1300.0
+    }
+   ],
+   "discount_code": null,
+   "discount_amount": 0.0,
+   "shipping_fee": 0.0,
+   "total": 20200.0
+  }
+ ],
+ "page": 2,
+ "total_pages": 3,
+ "total_records": 64,
+ "next": "page-3.json"
+}

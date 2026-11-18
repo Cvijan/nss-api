@@ -1,0 +1,208 @@
+{
+ "data": [
+  {
+   "product_id": 101,
+   "sku": "RVA-JER-101",
+   "name": "RVA Home Jersey",
+   "category": "jerseys",
+   "price": 7890.0,
+   "active": true
+  },
+  {
+   "product_id": 102,
+   "sku": "OKT-JER-102",
+   "name": "OKT Home Jersey",
+   "category": "jerseys",
+   "price": 8020.0,
+   "active": true
+  },
+  {
+   "product_id": 103,
+   "sku": "RVA-JER-103",
+   "name": "RVA Away Jersey",
+   "category": "jerseys",
+   "price": 8510.0,
+   "active": true
+  },
+  {
+   "product_id": 104,
+   "sku": "HGA-JER-104",
+   "name": "HGA Away Jersey",
+   "category": "jerseys",
+   "price": 5570.0,
+   "active": true
+  },
+  {
+   "product_id": 105,
+   "sku": "RVA-JER-105",
+   "name": "RVA Third Jersey",
+   "category": "jerseys",
+   "price": 5340.0,
+   "active": true
+  },
+  {
+   "product_id": 106,
+   "sku": "NPM-JER-106",
+   "name": "NPM Third Jersey",
+   "category": "jerseys",
+   "price": 6260.0,
+   "active": true
+  },
+  {
+   "product_id": 107,
+   "sku": "BMC-JER-107",
+   "name": "BMC Retro Jersey",
+   "category": "jerseys",
+   "price": 7960.0,
+   "active": true
+  },
+  {
+   "product_id": 108,
+   "sku": "VDC-JER-108",
+   "name": "VDC Retro Jersey",
+   "category": "jerseys",
+   "price": 6340.0,
+   "active": true
+  },
+  {
+   "product_id": 109,
+   "sku": "BMC-JER-109",
+   "name": "BMC Kids Jersey",
+   "category": "jerseys",
+   "price": 5570.0,
+   "active": false
+  },
+  {
+   "product_id": 110,
+   "sku": "STH-JER-110",
+   "name": "STH Kids Jersey",
+   "category": "jerseys",
+   "price": 7880.0,
+   "active": true
+  },
+  {
+   "product_id": 111,
+   "sku": "FWR-JER-111",
+   "name": "FWR Goalkeeper Jersey",
+   "category": "jerseys",
+   "price": 7150.0,
+   "active": true
+  },
+  {
+   "product_id": 112,
+   "sku": "OKT-JER-112",
+   "name": "OKT Goalkeeper Jersey",
+   "category": "jerseys",
+   "price": 7530.0,
+   "active": true
+  },
+  {
+   "product_id": 113,
+   "sku": "RVA-SCA-113",
+   "name": "RVA Classic Scarf",
+   "category": "scarves",
+   "price": 1680.0,
+   "active": true
+  },
+  {
+   "product_id": 114,
+   "sku": "HGA-SCA-114",
+   "name": "HGA Classic Scarf",
+   "category": "scarves",
+   "price": 1920.0,
+   "active": true
+  },
+  {
+   "product_id": 115,
+   "sku": "RVA-SCA-115",
+   "name": "RVA Winter Scarf",
+   "category": "scarves",
+   "price": 1980.0,
+   "active": true
+  },
+  {
+   "product_id": 116,
+   "sku": "HGA-SCA-116",
+   "name": "HGA Winter Scarf",
+   "category": "scarves",
+   "price": 2150.0,
+   "active": true
+  },
+  {
+   "product_id": 117,
+   "sku": "STH-SCA-117",
+   "name": "STH Silk Scarf",
+   "category": "scarves",
+   "price": 1930.0,
+   "active": true
+  },
+  {
+   "product_id": 118,
+   "sku": "BMC-SCA-118",
+   "name": "BMC Silk Scarf",
+   "category": "scarves",
+   "price": 2240.0,
+   "active": true
+  },
+  {
+   "product_id": 119,
+   "sku": "RVA-SCA-119",
+   "name": "RVA Supporters Scarf",
+   "category": "scarves",
+   "price": 1520.0,
+   "active": true
+  },
+  {
+   "product_id": 120,
+   "sku": "NPM-SCA-120",
+   "name": "NPM Supporters Scarf",
+   "category": "scarves",
+   "price": 1890.0,
+   "active": true
+  },
+  {
+   "product_id": 121,
+   "sku": "HGA-BAL-121",
+   "name": "HGA Match Ball",
+   "category": "balls",
+   "price": 2460.0,
+   "active": true
+  },
+  {
+   "product_id": 122,
+   "sku": "NPM-BAL-122",
+   "name": "NPM Match Ball",
+   "category": "balls",
+   "price": 6810.0,
+   "active": true
+  },
+  {
+   "product_id": 123,
+   "sku": "FWR-BAL-123",
+   "name": "FWR Training Ball",
+   "category": "balls",
+   "price": 5240.0,
+   "active": true
+  },
+  {
+   "product_id": 124,
+   "sku": "BMC-BAL-124",
+   "name": "BMC Training Ball",
+   "category": "balls",
+   "price": 2800.0,
+   "active": true
+  },
+  {
+   "product_id": 125,
+   "sku": "OKT-BAL-125",
+   "name": "OKT Mini Ball",
+   "category": "balls",
+   "price": 3130.0,
+   "active": true
+  }
+ ],
+ "page": 1,
+ "total_pages": 2,
+ "total_records": 40,
+ "next": "page-2.json"
+}

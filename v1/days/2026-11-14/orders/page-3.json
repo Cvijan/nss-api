@@ -1,0 +1,113 @@
+{
+ "data": [
+  {
+   "order_id": 261114051,
+   "placed_at": "2026-11-14T20:28:00+01:00",
+   "status": "DLV",
+   "customer": {
+    "customer_id": 1096
+   },
+   "payment": {
+    "method": "cash_on_delivery",
+    "paid": true
+   },
+   "items": [
+    {
+     "line": 1,
+     "product_id": 111,
+     "quantity": 3,
+     "unit_price": 7150.0
+    }
+   ],
+   "discount_code": null,
+   "discount_amount": 0.0,
+   "shipping_fee": 0.0,
+   "total": 21450.0
+  },
+  {
+   "order_id": 261114052,
+   "placed_at": "2026-11-14T19:30:00+01:00",
+   "status": "DLV",
+   "customer": {
+    "customer_id": 1441,
+    "city": "Niš"
+   },
+   "payment": {
+    "method": "cash_on_delivery",
+    "paid": true
+   },
+   "items": [
+    {
+     "line": 1,
+     "product_id": 107,
+     "quantity": 1,
+     "unit_price": 7960.0
+    },
+    {
+     "line": 2,
+     "product_id": 125,
+     "quantity": 2,
+     "unit_price": 3130.0
+    }
+   ],
+   "discount_code": null,
+   "discount_amount": 0.0,
+   "shipping_fee": 0.0,
+   "total": 14220.0
+  },
+  {
+   "order_id": 261114053,
+   "placed_at": "2026-11-14T20:41:00+01:00",
+   "status": "DLV",
+   "customer": {
+    "customer_id": 1173,
+    "city": "Zrenjanin"
+   },
+   "payment": {
+    "method": "card",
+    "paid": true
+   },
+   "items": [
+    {
+     "line": 1,
+     "product_id": 108,
+     "quantity": 3,
+     "unit_price": 6340.0
+    }
+   ],
+   "discount_code": null,
+   "discount_amount": 0.0,
+   "shipping_fee": 0.0,
+   "total": 19020.0
+  },
+  {
+   "order_id": 261114054,
+   "placed_at": "2026-11-14T09:21:00+01:00",
+   "status": "DLV",
+   "customer": {
+    "customer_id": 1095,
+    "city": "Novi Sad"
+   },
+   "payment": {
+    "method": "cash_on_delivery",
+    "paid": true
+   },
+   "items": [
+    {
+     "line": 1,
+     "product_id": 107,
+     "quantity": 3,
+     "unit_price": 7960.0
+    }
+   ],
+   "discount_code": null,
+   "discount_amount": 0.0,
+   "shipping_fee": 0.0,
+   "total": 23880.0
+  }
+ ],
+ "page": 3,
+ "total_pages": 3,
+ "total_records": 54,
+ "next": null
+}

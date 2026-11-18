@@ -1,0 +1,7 @@
+{
+ "service": "Northern Star Shop API",
+ "version": "v1",
+ "products_url": "products/page-1.json",
+ "days_url": "days.json",
+ "product_pages": 2
+}
