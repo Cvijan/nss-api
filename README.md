@@ -11,7 +11,7 @@ https://cvijan.github.io/nss-api/v2/
 **Files URL**
 
 ```
-https://cvijan.github.io/nss-api/v2/files/
+https://cvijan.github.io/nss-api/files/
 ```
 
 **Authentication:** none. The API is public and read-only.
