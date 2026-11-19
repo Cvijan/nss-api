@@ -5,13 +5,13 @@ Read-only access to Northern Star Shop orders, plus data files from the shop and
 **Base URL**
 
 ```
-https://<your-user>.github.io/nss-api/v2/
+https://cvijan.github.io/nss-api/v2/
 ```
 
 **Files URL**
 
 ```
-https://<your-user>.github.io/nss-api/v2/files/
+https://cvijan.github.io/nss-api/v2/files/
 ```
 
 **Authentication:** none. The API is public and read-only.
