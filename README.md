@@ -1,39 +1,47 @@
-# Northern Star Shop API — v1
+# Northern Star Shop API — v2
 
-Read-only access to the Northern Star Shop product catalog and orders. All responses are JSON, encoded in UTF-8.
+Read-only access to Northern Star Shop orders, plus data files from the shop and from the Northern Star League (NSL). Responses are JSON, encoded in UTF-8.
 
 **Base URL**
 
 ```
-https://cvijan.github.io/nss-api/v1/
+https://<your-user>.github.io/nss-api/v2/
+```
+
+**Files URL**
+
+```
+https://<your-user>.github.io/nss-api/v2/files/
 ```
 
 **Authentication:** none. The API is public and read-only.
 
 **Rate limits:** none enforced. Fetch each resource once per run and keep what you downloaded instead of calling again.
 
+v1 is still available at `.../nss-api/v1/` but is not used in this project. See the changelog for the differences.
+
 ---
 
 ## Conventions
 
-- **Dates** are ISO 8601 (`2026-11-09`).
+- **Dates** are ISO 8601 (`2026-08-15`).
 - **Money** is in Serbian dinars (RSD).
 - **Optional fields** are left out of the response when they are unknown, not sent as `null`.
 - **Paths** in responses (`next`) are relative. Resolve them against the URL of the response they came from.
-- **Data quality:** orders are entered through a web form and are sent to the API as received. Expect inconsistent spacing and letter case, missing or invalid values, test orders and orders that were sent more than once. Validating the data is the client's responsibility.
+- **Data quality:** orders are entered through a web form and are sent as received. Expect inconsistent spacing and letter case, missing or invalid values, test orders and orders that were sent more than once. Validating the data is the client's responsibility.
 
 ---
 
 ## Pagination
 
-List endpoints return pages of at most 25 records, wrapped in this envelope:
+The orders endpoint returns pages of at most 50 records, wrapped in this envelope:
 
 ```json
 {
   "data": [ ... ],
   "page": 1,
-  "total_pages": 5,
-  "total_records": 125,
+  "total_pages": 38,
+  "total_records": 1852,
   "next": "page-2.json"
 }
 ```
@@ -60,37 +68,29 @@ Service information. Use it to check your connection.
 {
   "service": "Northern Star Shop API",
   "version": "v1",
-  "products_url": "products/page-1.json",
   "orders_url": "orders/page-1.json",
-  "product_pages": 2,
-  "order_pages": 5
+  "order_pages": 38,
+  "files": {
+    "products": "files/products.csv",
+    "teams": "files/teams.csv",
+    "matches": "files/matches.parquet"
+  }
 }
 ```
 
-### `GET products/page-1.json` (paginated)
-
-The product catalog.
-
-| Field | Type | Description |
-| --- | --- | --- |
-| `product_id` | integer | unique product ID |
-| `name` | string | product name |
-| `category` | string | one of `jerseys`, `scarves`, `balls`, `caps`, `accessories` |
-| `price` | number | current price in RSD |
-
 ### `GET orders/page-1.json` (paginated)
 
-All orders, one product per order.
+All orders from 2026-08-15 to 2026-11-15, one product per order.
 
 ```json
 {
-  "order_id": "NSS-0003",
-  "order_date": "2026-11-09",
-  "customer": {"name": "MILICA PETROVIĆ", "city": " NIŠ "},
-  "product_id": 122,
-  "quantity": 3,
-  "unit_price": 1490.0,
-  "payment": "paypal"
+  "order_id": "NSS-00003",
+  "order_date": "2026-08-15",
+  "customer": {"name": "Sara Živković", "city": "Beograd"},
+  "product_id": 1041,
+  "quantity": 1,
+  "unit_price": 6990.0,
+  "payment": "card"
 }
 ```
 
@@ -100,20 +100,40 @@ All orders, one product per order.
 | `order_date` | string | date the order was placed, `YYYY-MM-DD` |
 | `customer.name` | string | customer's full name, as typed |
 | `customer.city` | string, optional | delivery city, as typed; omitted if unknown |
-| `product_id` | integer | product ID, see `products` |
+| `product_id` | integer | product ID, see `products.csv` |
 | `quantity` | integer | number of pieces; may arrive as text, be missing or be invalid |
 | `unit_price` | number | price per piece in RSD; may be missing or invalid |
 | `payment` | string | `card`, `cash` or `paypal` |
 
 ---
 
-## Errors
+## Files
 
-| Status | Meaning |
+Download these files as they are and read them locally. They are not paginated and have no envelope.
+
+### `files/products.csv`
+
+The product catalog, exported from the shop's ERP system. Comma-separated, with a header row.
+
+| Column | Description |
 | --- | --- |
-| `200` | OK |
-| `404` | the resource does not exist, e.g. a page past the last one |
+| `product_id` | product ID, as used in orders |
+| `sku` | stock-keeping unit, e.g. `NPM-JER-1001` |
+| `product_name` | product name |
+| `team_code` | three-letter code of the team the product belongs to (see `teams.csv`); empty for league products that belong to no team |
+| `category` | `jerseys`, `scarves`, `caps`, `accessories` or `balls` |
+| `price` | current price in RSD |
+| `active` | whether the product is still sold (`yes` / `no`) |
 
-Error responses are not JSON. Check the status code before parsing the body.
+The export is not cleaned. Formatting of prices, codes, categories and `active` is not consistent, and some rows may appear more than once.
 
----
+### `files/teams.csv`
+
+NSL teams, provided by the league office. Comma-separated, with a header row.
+
+| Column | Description |
+| --- | --- |
+| `team_id` | team ID, as used in `matches.parquet` |
+| `code` | three-letter team code, as used in `products.csv` |
+| `team_name` | full team name |
+|

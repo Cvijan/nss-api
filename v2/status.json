@@ -1,0 +1,11 @@
+{
+ "service": "Northern Star Shop API",
+ "version": "v1",
+ "orders_url": "orders/page-1.json",
+ "order_pages": 38,
+ "files": {
+  "products": "../files/products.csv",
+  "teams": "../files/teams.csv",
+  "matches": "../files/matches.parquet"
+ }
+}

@@ -1,0 +1,606 @@
+{
+ "data": [
+  {
+   "order_id": "NSS-01540",
+   "order_date": "2026-10-31",
+   "customer": {
+    "name": "Sara Marković",
+    "city": "niš"
+   },
+   "product_id": 1094,
+   "quantity": 2,
+   "unit_price": 1290.0,
+   "payment": "cash"
+  },
+  {
+   "order_id": "NSS-01541",
+   "order_date": "2026-10-31",
+   "customer": {
+    "name": "Petar Popović",
+    "city": "NIŠ"
+   },
+   "product_id": 1095,
+   "quantity": 1,
+   "unit_price": 490.0,
+   "payment": "card"
+  },
+  {
+   "order_id": "NSS-01542",
+   "order_date": "2026-10-31",
+   "customer": {
+    "name": "luka đorđević",
+    "city": "NOVI SAD"
+   },
+   "product_id": 1064,
+   "quantity": 1,
+   "unit_price": 1790.0,
+   "payment": "card"
+  },
+  {
+   "order_id": "NSS-01543",
+   "order_date": "2026-10-31",
+   "customer": {
+    "name": "Đorđe Stojanović",
+    "city": "Čačak"
+   },
+   "product_id": 1040,
+   "quantity": 2,
+   "unit_price": 1490.0,
+   "payment": "cash"
+  },
+  {
+   "order_id": "NSS-01544",
+   "order_date": "2026-10-31",
+   "customer": {
+    "name": "Đorđe Popović",
+    "city": "niš"
+   },
+   "product_id": 1066,
+   "quantity": 1,
+   "unit_price": 6990.0,
+   "payment": "cash"
+  },
+  {
+   "order_id": "NSS-01545",
+   "order_date": "2026-11-01",
+   "customer": {
+    "name": "Teodora Nikolić",
+    "city": " NOVI SAD "
+   },
+   "product_id": 1062,
+   "quantity": 3,
+   "unit_price": 6990.0,
+   "payment": "card"
+  },
+  {
+   "order_id": "NSS-01546",
+   "order_date": "2026-11-01",
+   "customer": {
+    "name": "Sara Ilić",
+    "city": "Niš"
+   },
+   "product_id": 1015,
+   "quantity": 1,
+   "unit_price": 490.0,
+   "payment": "card"
+  },
+  {
+   "order_id": "NSS-01547",
+   "order_date": "2026-11-01",
+   "customer": {
+    "name": "Ana Kovačević",
+    "city": " Kragujevac "
+   },
+   "product_id": 1036,
+   "quantity": "1",
+   "unit_price": 6490.0,
+   "payment": "card"
+  },
+  {
+   "order_id": "NSS-01548",
+   "order_date": "2026-11-01",
+   "customer": {
+    "name": "Sara Lazić",
+    "city": "BEOGRAD"
+   },
+   "product_id": 1032,
+   "quantity": 1,
+   "unit_price": 6990.0,
+   "payment": "cash"
+  },
+  {
+   "order_id": "NSS-01549",
+   "order_date": "2026-11-01",
+   "customer": {
+    "name": "Jelena Lazić",
+    "city": "Pančevo"
+   },
+   "product_id": 1022,
+   "quantity": 1,
+   "unit_price": 6490.0,
+   "payment": "paypal"
+  },
+  {
+   "order_id": "NSS-01550",
+   "order_date": "2026-11-01",
+   "customer": {
+    "name": "TEODORA STOJANOVIĆ",
+    "city": "Niš"
+   },
+   "product_id": 1069,
+   "quantity": 1,
+   "unit_price": 1290.0,
+   "payment": "card"
+  },
+  {
+   "order_id": "NSS-01551",
+   "order_date": "2026-11-01",
+   "customer": {
+    "name": "Milan Marković",
+    "city": "Pančevo"
+   },
+   "product_id": 1094,
+   "quantity": 1,
+   "unit_price": 1290.0,
+   "payment": "cash"
+  },
+  {
+   "order_id": "NSS-01552",
+   "order_date": "2026-11-01",
+   "customer": {
+    "name": " Đorđe Nikolić ",
+    "city": " Pančevo "
+   },
+   "product_id": 1025,
+   "quantity": 1,
+   "unit_price": 1490.0,
+   "payment": "card"
+  },
+  {
+   "order_id": "NSS-01553",
+   "order_date": "2026-11-01",
+   "customer": {
+    "name": "PETAR KOVAČEVIĆ",
+    "city": "Pančevo"
+   },
+   "product_id": 1014,
+   "quantity": 2,
+   "unit_price": 2290.0,
+   "payment": "card"
+  },
+  {
+   "order_id": "NSS-01554",
+   "order_date": "2026-11-01",
+   "customer": {
+    "name": "Vuk Lazić",
+    "city": "KRALJEVO"
+   },
+   "product_id": 1021,
+   "quantity": 3,
+   "unit_price": 6490.0,
+   "payment": "cash"
+  },
+  {
+   "order_id": "NSS-01555",
+   "order_date": "2026-11-01",
+   "customer": {
+    "name": " Jovana Živković ",
+    "city": "Sombor"
+   },
+   "product_id": 1061,
+   "quantity": -2,
+   "unit_price": 6990.0,
+   "payment": "card"
+  },
+  {
+   "order_id": "NSS-01556",
+   "order_date": "2026-11-01",
+   "customer": {
+    "name": "JOVANA JOVANOVIĆ",
+    "city": "SUBOTICA"
+   },
+   "product_id": 1079,
+   "quantity": 1,
+   "unit_price": 1790.0,
+   "payment": "card"
+  },
+  {
+   "order_id": "NSS-01557",
+   "order_date": "2026-11-01",
+   "customer": {
+    "name": "MARKO NIKOLIĆ",
+    "city": "Beograd"
+   },
+   "product_id": 1094,
+   "quantity": 3,
+   "unit_price": 1290.0,
+   "payment": "cash"
+  },
+  {
+   "order_id": "NSS-01558",
+   "order_date": "2026-11-01",
+   "customer": {
+    "name": " Milan Popović ",
+    "city": "Novi Sad"
+   },
+   "product_id": 1094,
+   "quantity": 2,
+   "unit_price": 1290.0,
+   "payment": "card"
+  },
+  {
+   "order_id": "NSS-01559",
+   "order_date": "2026-11-01",
+   "customer": {
+    "name": "Teodora Popović",
+    "city": "ZRENJANIN"
+   },
+   "product_id": 1008,
+   "quantity": 2,
+   "unit_price": 1990.0,
+   "payment": "paypal"
+  },
+  {
+   "order_id": "NSS-01560",
+   "order_date": "2026-11-01",
+   "customer": {
+    "name": "Teodora Đorđević",
+    "city": "Kragujevac"
+   },
+   "product_id": 1055,
+   "quantity": 1,
+   "unit_price": 990.0,
+   "payment": "card"
+  },
+  {
+   "order_id": "nss-01561",
+   "order_date": "2026-11-01",
+   "customer": {
+    "name": "Teodora Ilić",
+    "city": "Sombor"
+   },
+   "product_id": 1034,
+   "quantity": 1,
+   "unit_price": 1290.0,
+   "payment": "cash"
+  },
+  {
+   "order_id": "NSS-01562",
+   "order_date": "2026-11-01",
+   "customer": {
+    "name": " Marko Đorđević ",
+    "city": "kraljevo"
+   },
+   "product_id": 1041,
+   "quantity": 1,
+   "unit_price": 6990.0,
+   "payment": "paypal"
+  },
+  {
+   "order_id": "NSS-01563",
+   "order_date": "2026-11-01",
+   "customer": {
+    "name": "Milica Petrović",
+    "city": "Niš"
+   },
+   "product_id": 1018,
+   "quantity": 3,
+   "unit_price": 1490.0,
+   "payment": "paypal"
+  },
+  {
+   "order_id": "NSS-01564",
+   "order_date": "2026-11-01",
+   "customer": {
+    "name": "MILAN JOVANOVIĆ",
+    "city": " Sombor "
+   },
+   "product_id": 1097,
+   "quantity": 2,
+   "unit_price": 6490.0,
+   "payment": "paypal"
+  },
+  {
+   "order_id": " NSS-01565 ",
+   "order_date": "2026-11-01",
+   "customer": {
+    "name": "Katarina Stojanović",
+    "city": "Beograd"
+   },
+   "product_id": 1024,
+   "quantity": 1,
+   "unit_price": 1290.0,
+   "payment": "card"
+  },
+  {
+   "order_id": "NSS-01566",
+   "order_date": "2026-11-01",
+   "customer": {
+    "name": " Luka Popović ",
+    "city": "Kraljevo"
+   },
+   "product_id": 1081,
+   "quantity": 2,
+   "unit_price": 6490.0,
+   "payment": "card"
+  },
+  {
+   "order_id": "NSS-01567",
+   "order_date": "2026-11-01",
+   "customer": {
+    "name": " Teodora Kovačević ",
+    "city": " KRALJEVO "
+   },
+   "product_id": 1012,
+   "quantity": 1,
+   "unit_price": 5990.0,
+   "payment": "paypal"
+  },
+  {
+   "order_id": "NSS-01568",
+   "order_date": "2026-11-01",
+   "customer": {
+    "name": " Katarina Popović ",
+    "city": "Beograd"
+   },
+   "product_id": 1070,
+   "quantity": 1,
+   "unit_price": 1490.0,
+   "payment": "card"
+  },
+  {
+   "order_id": "NSS-01569",
+   "order_date": "2026-11-01",
+   "customer": {
+    "name": "KATARINA POPOVIĆ",
+    "city": "Niš"
+   },
+   "product_id": 1026,
+   "quantity": 3,
+   "unit_price": 6990.0,
+   "payment": "card"
+  },
+  {
+   "order_id": "NSS-01570",
+   "order_date": "2026-11-01",
+   "customer": {
+    "name": "Milica Stojanović",
+    "city": "Pančevo"
+   },
+   "product_id": 1003,
+   "quantity": 2,
+   "unit_price": 1490.0,
+   "payment": "cash"
+  },
+  {
+   "order_id": "NSS-01571",
+   "order_date": "2026-11-02",
+   "customer": {
+    "name": "Ana Kovačević"
+   },
+   "product_id": 1094,
+   "quantity": 1,
+   "unit_price": 1290.0,
+   "payment": "cash"
+  },
+  {
+   "order_id": "NSS-01572",
+   "order_date": "2026-11-02",
+   "customer": {
+    "name": "Ivana Pavlović",
+    "city": "Beograd"
+   },
+   "product_id": 1058,
+   "quantity": 1,
+   "unit_price": 2490.0,
+   "payment": "card"
+  },
+  {
+   "order_id": "NSS-01573",
+   "order_date": "2026-11-02",
+   "customer": {
+    "name": "Đorđe Živković",
+    "city": "kragujevac"
+   },
+   "product_id": 1039,
+   "quantity": 1,
+   "unit_price": 1290.0,
+   "payment": "cash"
+  },
+  {
+   "order_id": " NSS-01574 ",
+   "order_date": "2026-11-02",
+   "customer": {
+    "name": "Stefan Popović",
+    "city": "Čačak"
+   },
+   "product_id": 1038,
+   "quantity": 2,
+   "unit_price": 1990.0,
+   "payment": "cash"
+  },
+  {
+   "order_id": "NSS-01575",
+   "order_date": "2026-11-02",
+   "customer": {
+    "name": "JELENA ŽIVKOVIĆ",
+    "city": "Beograd"
+   },
+   "product_id": 1026,
+   "quantity": 2,
+   "unit_price": 6990.0,
+   "payment": "card"
+  },
+  {
+   "order_id": "NSS-01576",
+   "order_date": "2026-11-02",
+   "customer": {
+    "name": "Luka Popović",
+    "city": "Čačak"
+   },
+   "product_id": 1082,
+   "quantity": 1,
+   "unit_price": 5990.0,
+   "payment": "paypal"
+  },
+  {
+   "order_id": "NSS-01577",
+   "order_date": "2026-11-02",
+   "customer": {
+    "name": "Ana Popović",
+    "city": " Beograd "
+   },
+   "product_id": 1096,
+   "quantity": 3,
+   "unit_price": 6990.0,
+   "payment": "paypal"
+  },
+  {
+   "order_id": " NSS-01578 ",
+   "order_date": "2026-11-02",
+   "customer": {
+    "name": "Katarina Đorđević",
+    "city": "ČAČAK"
+   },
+   "product_id": 1019,
+   "quantity": 2,
+   "unit_price": 2290.0,
+   "payment": "paypal"
+  },
+  {
+   "order_id": "NSS-01579",
+   "order_date": "2026-11-02",
+   "customer": {
+    "name": "ANA ŽIVKOVIĆ",
+    "city": "Zrenjanin"
+   },
+   "product_id": 1068,
+   "quantity": 3,
+   "unit_price": 1490.0,
+   "payment": "card"
+  },
+  {
+   "order_id": "NSS-01580",
+   "order_date": "2026-11-02",
+   "customer": {
+    "name": " Jelena Kovačević ",
+    "city": " Čačak "
+   },
+   "product_id": 1034,
+   "quantity": 1,
+   "unit_price": 1290.0,
+   "payment": "paypal"
+  },
+  {
+   "order_id": "NSS-01581",
+   "order_date": "2026-11-02",
+   "customer": {
+    "name": "Nikola Stojanović",
+    "city": "Beograd"
+   },
+   "product_id": 1007,
+   "quantity": 1,
+   "unit_price": 6490.0,
+   "payment": "cash"
+  },
+  {
+   "order_id": "NSS-01582",
+   "order_date": "2026-11-02",
+   "customer": {
+    "name": "Nikola Jovanović",
+    "city": "Kragujevac"
+   },
+   "product_id": 1040,
+   "quantity": 1,
+   "unit_price": 1490.0,
+   "payment": "cash"
+  },
+  {
+   "order_id": "NSS-01583",
+   "order_date": "2026-11-02",
+   "customer": {
+    "name": "Vuk Jovanović",
+    "city": "Beograd"
+   },
+   "product_id": 1037,
+   "quantity": 2,
+   "unit_price": 6490.0,
+   "payment": "cash"
+  },
+  {
+   "order_id": "NSS-01584",
+   "order_date": "2026-11-02",
+   "customer": {
+    "name": "Stefan Stojanović"
+   },
+   "product_id": 1083,
+   "quantity": 3,
+   "unit_price": 1490.0,
+   "payment": "paypal"
+  },
+  {
+   "order_id": "NSS-01585",
+   "order_date": "2026-11-02",
+   "customer": {
+    "name": "Ivana Živković",
+    "city": "Zrenjanin"
+   },
+   "product_id": 1023,
+   "quantity": 3,
+   "unit_price": 1990.0,
+   "payment": "paypal"
+  },
+  {
+   "order_id": "NSS-01586",
+   "order_date": "2026-11-02",
+   "customer": {
+    "name": "Teodora Jovanović",
+    "city": "Sombor"
+   },
+   "product_id": 1008,
+   "quantity": 1,
+   "unit_price": 1990.0,
+   "payment": "card"
+  },
+  {
+   "order_id": "NSS-01587",
+   "order_date": "2026-11-02",
+   "customer": {
+    "name": "Sara Kovačević",
+    "city": "subotica"
+   },
+   "product_id": 1002,
+   "quantity": 1,
+   "unit_price": 6990.0,
+   "payment": "paypal"
+  },
+  {
+   "order_id": "NSS-01588",
+   "order_date": "2026-11-02",
+   "customer": {
+    "name": "Milica Đorđević",
+    "city": "Sombor"
+   },
+   "product_id": 1019,
+   "quantity": 1,
+   "unit_price": 2290.0,
+   "payment": "cash"
+  },
+  {
+   "order_id": " NSS-01589 ",
+   "order_date": "2026-11-02",
+   "customer": {
+    "name": "Luka Jovanović",
+    "city": "PANČEVO"
+   },
+   "product_id": 1066,
+   "quantity": 1,
+   "unit_price": 6990.0,
+   "payment": "card"
+  }
+ ],
+ "page": 32,
+ "total_pages": 38,
+ "total_records": 1852,
+ "next": "page-33.json"
+}

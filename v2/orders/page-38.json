@@ -1,0 +1,32 @@
+{
+ "data": [
+  {
+   "order_id": "NSS-01839",
+   "order_date": "2026-11-15",
+   "customer": {
+    "name": "Jelena Živković",
+    "city": "Zrenjanin"
+   },
+   "product_id": 1004,
+   "quantity": 2,
+   "unit_price": 2290.0,
+   "payment": "cash"
+  },
+  {
+   "order_id": "NSS-01840",
+   "order_date": "2026-11-15",
+   "customer": {
+    "name": "ĐORĐE ĐORĐEVIĆ",
+    "city": "Novi Sad"
+   },
+   "product_id": 1045,
+   "quantity": 2,
+   "unit_price": 1490.0,
+   "payment": "paypal"
+  }
+ ],
+ "page": 38,
+ "total_pages": 38,
+ "total_records": 1852,
+ "next": null
+}
